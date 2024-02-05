@@ -29,4 +29,25 @@
     <string name="card_phone">010-0000-0000</string>
     <string name="card_share">@minchae</string>
     <string name="card_email">minchae075@naver.com</string>
+
+    <!-- Dice Roller -->
+    <string name="roll">Roll</string>
+
+    <!-- Lemonade -->
+    <string name="lemonade_appname">Lemonade</string>
+    <string name="lemon_select">Tap the lemon tree to select a lemon</string>
+    <string name="lemon_sqeeze">Keep tapping the lemon to squeeze it</string>
+    <string name="lemon_drink">Tap the lemonade to drink it</string>
+    <string name="lemon_again">Tap the empty glass to start again</string>
+    <string name="lemon_tree_content">Lemon tree</string>
+    <string name="lemon_content">Lemon</string>
+    <string name="glass_lemon_content">Glass of lemonade</string>
+    <string name="empty_lemon">Empty glass</string>
+
+    <!-- Tip Time -->
+    <string name="calculate_tip">Calculate Tip</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="tip_amount">Tip Amount: %s</string>
+    <string name="how_was_the_service">Tip Percentage</string>
+    <string name="round_up_tip">Round up tip?</string>
 </resources>
