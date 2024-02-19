@@ -67,3 +67,11 @@ fun TaskManager(modifier: Modifier = Modifier) {
         )
     }
 }
+
+@Preview(showSystemUi = true, showBackground = true)
+@Composable
+fun AppPreview() {
+    TaskManagerTheme {
+        TaskManager(modifier = Modifier)
+    }
+}

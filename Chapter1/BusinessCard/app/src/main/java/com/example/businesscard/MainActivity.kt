@@ -116,3 +116,11 @@ fun IconText(icon: ImageVector, content: String, modifier: Modifier = Modifier) 
         Text(text = content,)
     }
 }
+
+@Preview(showSystemUi = true, showBackground = true)
+@Composable
+fun AppPreview() {
+    BusinessCardTheme {
+        BusinessApp()
+    }
+}

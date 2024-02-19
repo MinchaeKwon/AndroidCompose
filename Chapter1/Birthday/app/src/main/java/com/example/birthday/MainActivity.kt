@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     GreetingImage(
                         stringResource(R.string.happy_birthday_text),
-                        getString(R.string.signature_text)
+                        stringResource(R.string.signature_text)
                     )
                 }
             }
@@ -94,6 +94,17 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
             message = message,
             from = from,
             modifier = Modifier.padding(top = 8.dp)
+        )
+    }
+}
+
+@Preview(showSystemUi = true, showBackground = true)
+@Composable
+fun AppPreview() {
+    BirthdayTheme {
+        GreetingImage(
+            stringResource(R.string.happy_birthday_text),
+            stringResource(R.string.signature_text)
         )
     }
 }
