@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+
+    <!-- Business Card -->
+    <string name="card_name">Minchae Kwon</string>
+    <string name="card_title">Android Developer</string>
+    <string name="card_phone">010-0000-0000</string>
+    <string name="card_share">minchae</string>
+    <string name="card_email">minchae075@naver.com</string>
+</resources>

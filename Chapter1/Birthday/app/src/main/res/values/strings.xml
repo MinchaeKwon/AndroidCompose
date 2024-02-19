@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Birthday</string>
+
+    <!-- 생일 카드 -->
+    <string name="happy_birthday_text">Happy Birthday Sam!</string>
+    <string name="signature_text">From Emma</string>
+</resources>
