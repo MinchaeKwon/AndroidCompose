@@ -16,6 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.tossclone.R
+import androidx.compose.runtime.getValue
 import com.example.tossclone.ui.theme.TossCloneTheme
 
 @Composable
@@ -46,6 +47,8 @@ fun TossBankView() {
                 .padding(16.dp)
         )
 
+//        Spacer(modifier = Modifier.weight(1f))
+//
 //        IconButton(
 //            onClick = { /*TODO*/ },
 //        ) {
