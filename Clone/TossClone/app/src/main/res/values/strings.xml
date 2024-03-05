@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TossClone</string>
+
+    <string name="toss_home">홈</string>
+    <string name="toss_benefit">혜택</string>
+    <string name="toss_pay">토스페이</string>
+    <string name="toss_stock">주식</string>
+    <string name="toss_menu">전체</string>
+
+    <string name="toss_bank">토스뱅크</string>
+</resources>
