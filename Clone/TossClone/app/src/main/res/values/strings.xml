@@ -8,4 +8,21 @@
     <string name="toss_menu">전체</string>
 
     <string name="toss_bank">토스뱅크</string>
+    <string name="transfer">송금</string>
+    <string name="history">내역</string>
+    <string name="money">%s원</string>
+    <string name="asset_more">내 계좌 · 대출 · 증권 · 포인트 보기</string>
+    <string name="month_spend">이번 달 쓴 금액</string>
+    <string name="create_account">계좌개설</string>
+    <string name="create_card">카드발급</string>
+    <string name="get_loan">대출받기</string>
+    <string name="recommend_date">%d월 %d일</string>
+    <string name="recommend_title">%s님을 위해 준비했어요</string>
+    <string name="recommend_ask">보험 전문가에게 물어보기</string>
+    <string name="recommend_hospital">병원비 돌려받기</string>
+    <string name="recommend_compare">소득 대비 소비 비교</string>
+    <string name="recommend_more">추천 서비스 더보기</string>
+    <string name="screen_setting">화면 설정</string>
+    <string name="add_asset">자산 추가</string>
+    <string name="personal_info">개인정보처리방침 보기</string>
 </resources>
