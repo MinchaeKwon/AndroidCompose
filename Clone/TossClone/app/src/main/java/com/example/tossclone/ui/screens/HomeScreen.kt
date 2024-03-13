@@ -245,7 +245,7 @@ private fun AssetItem(item: Asset, modifier: Modifier = Modifier) {
 @Composable
 private fun MoreView(@StringRes text: Int, modifier: Modifier = Modifier) {
     Divider(
-        color = Color.LightGray,
+        color = Color(0xFFF2F3F5),
         thickness = 1.dp,
         modifier = modifier.fillMaxWidth()
     )
@@ -347,7 +347,7 @@ private fun MenuView(modifier: Modifier = Modifier) {
 
                 if (index != menuList.size - 1) {
                     Divider(
-                        color = Color.LightGray,
+                        color = Color(0xFFF2F3F5),
                         modifier = modifier
                             .width(1.dp)
                             .height(20.dp)
@@ -454,7 +454,7 @@ private fun PersonalInfoView(modifier: Modifier = Modifier) {
     Text(
         text = stringResource(R.string.personal_info),
         fontSize = 12.sp,
-        color = Color.LightGray,
+        color = Color(0xFFB3BAC4),
         modifier = modifier.padding(top = 12.dp, bottom = 44.dp)
     )
 }
@@ -466,13 +466,14 @@ fun TextButton(
 ) {
     Card(
         shape = Shapes.small,
-        colors = CardDefaults.cardColors(containerColor = Color.LightGray),
+        colors = CardDefaults.cardColors(containerColor = Color(0xFFF2F3F5)),
         modifier = modifier
     ) {
         Text(
             text = content,
             fontSize = 14.sp,
             fontWeight = FontWeight.Medium,
+            color = Color(0xFF53565B),
             modifier = modifier
                 .padding(
                     vertical = 8.dp,
@@ -490,7 +491,7 @@ fun IconTextButton(
 ) {
     Card(
         shape = MaterialTheme.shapes.medium,
-        colors = CardDefaults.cardColors(containerColor = Color.LightGray),
+        colors = CardDefaults.cardColors(containerColor = Color(0xFFE6EAED)),
         modifier = modifier.fillMaxWidth()
     ) {
         Row(
@@ -512,7 +513,7 @@ fun IconTextButton(
                 text = content,
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Medium,
-                color = Color.DarkGray
+                color = Color(0xFF505865)
             )
         }
     }
